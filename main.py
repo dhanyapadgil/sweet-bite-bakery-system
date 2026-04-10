@@ -5,7 +5,7 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="trust",
+        password="your_password_here",
         database="bakery_db")
 def add_product():
     db = connect_db()
